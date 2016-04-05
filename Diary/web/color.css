@@ -1,0 +1,219 @@
+#top{
+    height: 100px;
+    width: available;
+}
+#center{
+    height: 500px;
+}
+
+#bottom{
+    height: 100px;
+    width: available;
+}
+
+#has{
+    background-image: url(img/bgn1.png);
+}
+#login{
+    position: absolute;
+    right: 125px;
+}
+#registration{
+    position: absolute;
+    top: 225px;
+    alignment-adjust: central;
+    alignment-baseline: central;
+}
+.bu{
+    border: tomato;
+    background: tomato;
+    padding: 5px;
+    //display: block;
+}
+.bu:hover{
+    background: yellow;
+}
+.mess{
+    display: ruby;
+    color: salmon;
+    font: fantasy;
+    font-style: italic;
+}
+.ul{
+    alignment-adjust: central;
+    list-style-type:none;
+    margin: 1;
+    padding: 1;
+    padding-top:7px;
+    padding-bottom:5px;
+}
+
+.li{
+    alignment-adjust: central;
+    display:inline;
+}
+.a{
+    
+    font-weight:bold;
+    color: cadetblue;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:hover{
+    color:yellow;
+}
+.mar{
+    color: tomato;
+    font-style: italic;
+    font-size: 20px;
+}
+.ulb{
+    alignment-adjust: central;
+    list-style-type:none;
+    margin: 10;
+    padding: 10px;
+    padding-top:7px;
+    padding-bottom:5px;
+}
+
+.lib{
+    alignment-adjust: central;
+    display:inline;
+    padding: 100px;
+}
+.ab{
+    font-weight:bold;
+    color:mediumspringgreen;
+    text-align:center;
+    padding:6px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.h{
+    position: absolute;
+    right: 125px;
+}
+.p:hover{
+    background: aqua;
+}
+
+#profile{
+    position: absolute;
+    top: 225px;
+    alignment-adjust: central;
+    alignment-baseline: central;
+}
+#write{
+    background-image: url(img/bgn2.jpg);
+}
+.bu2{
+    background: gold;
+    display: block;
+}
+.bu2:hover{
+    background: fuchsia;
+}
+
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+    padding-left: 450px;
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: visible; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 20px;
+  width: 150px; 
+  top: auto;
+  left: -9999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: inherit;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}ul#nav { 
+  float: inside;
+}
+
+ul#nav ul { 
+  background: antiquewhite;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+ul#nav li a { 
+  padding: 7px 25px 6px 25px;
+  font: 90% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-shadow: 1px 1px #323232;
+  text-decoration: none;
+  color: palegreen;
+  margin-right: 2px;
+}
+
+ul#nav li.selected a, ul#nav li.selected a:hover, ul#nav li.selected a:focus, ul#nav li a:hover, ul#nav li a:focus{ 
+  color: darkorange;
+  text-shadow: 1px 1px #000;
+}
+
+ul#nav ul li a { 
+  color: green;
+  text-shadow: 1px 1px #fff;
+}
+
+ul#nav ul li a:hover { 
+  color: tomato;
+  margin-right: 2px;
+}
+
+input{
+    border-radius: 10px;
+}
